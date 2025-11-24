@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+.hero-div {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #7D5A52 0%, #5A3F3A 100%);
+    background-image:
+        linear-gradient(135deg, rgba(125, 90, 82, 0.92) 0%, rgba(90, 63, 58, 0.92) 100%),
+        url('/Background.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 6px 0px rgba(0, 0, 0, 0.2);
+    border-bottom: 4px solid #C9A961;
+}
+
+.header-text {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 90px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.35), 6px 6px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    animation: bounce 2s infinite;
+}
+
+.sub-text {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #D4C4B0;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.35);
+    margin: 10px 0;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-div {
+        padding: 60px 20px;
+        min-height: 400px;
+    }
+
+    .header-text {
+        font-size: 56px;
+        letter-spacing: 2px;
+    }
+
+    .sub-text {
+        font-size: 20px;
+    }
+}

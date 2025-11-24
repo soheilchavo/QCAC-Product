@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jersey 10", sans-serif;
+  background-color: #FFFFFF;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Jersey 10", sans-serif;
+}
