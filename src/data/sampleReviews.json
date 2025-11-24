@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Chen",
+    "rating": 5,
+    "text": "The most iconic game ever made!"
+  },
+  {
+    "id": 2,
+    "name": "James Rodriguez",
+    "rating": 5,
+    "text": "Perfect platformer that started it all."
+  },
+  {
+    "id": 3,
+    "name": "Emily Watson",
+    "rating": 4,
+    "text": "Revolutionary masterpiece that still holds up today."
+  }
+]
